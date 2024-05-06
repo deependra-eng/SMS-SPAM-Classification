@@ -15,12 +15,34 @@ Text Preprocessing: Here, we converted the 'text' column to 'transformed_text', 
 
 Model Building: We have created multiple models-
 
-   Algorithm	  Accuracy	Precision
-1	KN	  0.905222	1.000000
-4	RF	  0.975822	0.982906
-0	SVC	  0.975822	0.974790
-3	LR	  0.958414	0.970297
-5	AdaBoost  0.960348	0.929204
-7	xgb	  0.967118	0.926230
-6	GBDT	  0.946809	0.919192
-2	DT	  0.932302	0.833333
+Model Name -  SVC
+Accuracy -  0.9758220502901354
+Precision -  0.9747899159663865
+_______________
+Model Name -  KN
+Accuracy -  0.9052224371373307
+Precision -  1.0
+_______________
+Model Name -  DT
+Accuracy -  0.9323017408123792
+Precision -  0.8333333333333334
+_______________
+Model Name -  LR
+Accuracy -  0.9584139264990329
+Precision -  0.9702970297029703
+_______________
+Model Name -  RF
+Accuracy -  0.9758220502901354
+Precision -  0.9829059829059829
+_______________
+Model Name -  AdaBoost
+Accuracy -  0.960348162475822
+Precision -  0.9292035398230089
+_______________
+Model Name -  GBDT
+Accuracy -  0.9468085106382979
+Precision -  0.9191919191919192
+_______________
+Model Name -  xgb
+Accuracy -  0.9671179883945842
+Precision -  0.9262295081967213
