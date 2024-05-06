@@ -15,34 +15,40 @@ Text Preprocessing: Here, we converted the 'text' column to 'transformed_text', 
 
 Model Building: We have created multiple models-
 
-Model Name -  SVC
-Accuracy -  0.9758220502901354
-Precision -  0.9747899159663865
+Model Name -  Multinomial NB |
+Accuracy -  0.9709864603481625 |
+Precision -  1.0 |
+_______________	
+Model Name -  SVC |
+Accuracy -  0.9758220502901354 |
+Precision -  0.9747899159663865 |
 _______________
-Model Name -  KN
-Accuracy -  0.9052224371373307
-Precision -  1.0
+Model Name -  KN |
+Accuracy -  0.9052224371373307 |
+Precision -  1.0 |
 _______________
-Model Name -  DT
-Accuracy -  0.9323017408123792
-Precision -  0.8333333333333334
+Model Name -  DT |
+Accuracy -  0.9323017408123792 |
+Precision -  0.8333333333333334 |
 _______________
-Model Name -  LR
-Accuracy -  0.9584139264990329
-Precision -  0.9702970297029703
+Model Name -  LR |
+Accuracy -  0.9584139264990329 |
+Precision -  0.9702970297029703 |
 _______________
-Model Name -  RF
-Accuracy -  0.9758220502901354
-Precision -  0.9829059829059829
+Model Name -  RF |
+Accuracy -  0.9758220502901354 |
+Precision -  0.9829059829059829 |
 _______________
-Model Name -  AdaBoost
-Accuracy -  0.960348162475822
-Precision -  0.9292035398230089
+Model Name -  AdaBoost |
+Accuracy -  0.960348162475822 |
+Precision -  0.9292035398230089 |
 _______________
-Model Name -  GBDT
-Accuracy -  0.9468085106382979
-Precision -  0.9191919191919192
+Model Name -  GBDT |
+Accuracy -  0.9468085106382979 |
+Precision -  0.9191919191919192 |
 _______________
-Model Name -  xgb
-Accuracy -  0.9671179883945842
-Precision -  0.9262295081967213
+Model Name -  xgb |
+Accuracy -  0.9671179883945842 |
+Precision -  0.9262295081967213 |
+
+Model Selection : As we can see there are 2 models which are performing very well in terms of precision KNN_classifier(1) and Multinomial naive bayes(1) but when it comes to accuracy we will go ahead with MultinomialNB model.
