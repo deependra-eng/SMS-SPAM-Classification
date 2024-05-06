@@ -52,3 +52,6 @@ Accuracy -  0.9671179883945842 |
 Precision -  0.9262295081967213 |
 
 Model Selection : As we can see there are 2 models which are performing very well in terms of precision KNN_classifier(1) and Multinomial naive bayes(1) but when it comes to accuracy we will go ahead with MultinomialNB model.
+
+![image](https://github.com/deependra-eng/SMS_SPAM_Classification/assets/56891041/47728540-c73f-4660-9c70-9fcba17e63ae)
+
