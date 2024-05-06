@@ -60,3 +60,7 @@ Model Deployment: For the deployment we are using here "HEROKU" cloud platform. 
 >> requirements.text - It contains which libraries required to run the app
 >> nltk.txt - It contains NLTK corpora names and install them into our application at build time.
 
+Here are the screenshot of the live app classifying about SPAM & NOT SPAM - 
+![image](https://github.com/deependra-eng/SMS_SPAM_Classification/assets/56891041/f48b467b-6e5c-4b8a-b15e-1c28a5b79cbf)
+![image](https://github.com/deependra-eng/SMS_SPAM_Classification/assets/56891041/d38feade-800d-4874-9eba-3486a11b3676)
+
