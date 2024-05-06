@@ -51,7 +51,12 @@ Model Name -  xgb |
 Accuracy -  0.9671179883945842 |
 Precision -  0.9262295081967213 |
 
-Model Selection : As we can see there are 2 models which are performing very well in terms of precision KNN_classifier(1) and Multinomial naive bayes(1) but when it comes to accuracy we will go ahead with MultinomialNB model.
+Model Selection: As we can see there are 2 models which are performing very well in terms of precision KNN_classifier(1) and Multinomial naive bayes(1) but when it comes to accuracy we will go ahead with MultinomialNB model.
 
-![image](https://github.com/deependra-eng/SMS_SPAM_Classification/assets/56891041/47728540-c73f-4660-9c70-9fcba17e63ae)
+Model Deployment: For the deployment we are using here "HEROKU" cloud platform. During deployment we have to create few files :
+>> setup.sh - Its batch file which runs on cloud.
+>> Procfile - Its text file containing command to start your app.
+>> .gitignore - It ignores virtual environment files
+>> requirements.text - It contains which libraries required to run the app
+>> nltk.txt - It contains NLTK corpora names and install them into our application at build time.
 
